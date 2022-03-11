@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="common/header :: header">
+    <title>Main Hello</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8">
+<body>
+<div class="container">
+    <div th:replace="common/bodyHeader :: bodyHeader" />
+    <div class="jumbotron">
+        <h1>세상에서 가장 맛있는 이야기</h1>
+        <br>
+        <p class="lead">맛집 검색</p>
+        <p>
+            <a class="btn btn-lg btn-secondary" href="/restaurant">맛집 메인</a>
+        </p>
+        <p class="lead">맛집 후기</p>
+        <p>
+            <a class="btn btn-lg btn-dark" href="/review">후기 메인</a>
+        </p>
+        <p class="lead">자유게시판</p>
+        <p>
+            <a class="btn btn-lg btn-info" href="/board">게시판 메인</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>
