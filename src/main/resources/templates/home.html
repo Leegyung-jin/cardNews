@@ -8,19 +8,16 @@
 <div class="container">
     <div th:replace="common/bodyHeader :: bodyHeader" />
     <div class="jumbotron">
-        <h1>세상에서 가장 맛있는 이야기</h1>
+        <h1>카드 뉴스 한눈에 보기</h1>
         <br>
         <p>
-            <a class="btn btn-lg btn-outline-warning btn-width" href="/restaurant">검색</a>
+            <a class="btn btn-lg btn-warning btn-width" href="/read">뉴스 읽기</a>
         </p>
         <p>
-            <a class="btn btn-lg btn-outline-info btn-width" href="/review">후기</a>
+            <a class="btn btn-lg btn-info btn-width" href="/create">뉴스 등록</a>
         </p>
         <p>
-            <a class="btn btn-lg btn-outline-secondary btn-width" href="/board">게시판</a>
-        </p>
-        <p>
-            <a class="btn btn-lg btn-outline-dark btn-width" href="/board">맛집 등록</a>
+            <a class="btn btn-lg btn-secondary btn-width" href="/board">의견 나누기</a>
         </p>
     </div>
 </div>
@@ -28,6 +25,7 @@
 <style>
     .btn-width {
         width: 200px;
+        height: 100px;
     }
 </style>
 </html>

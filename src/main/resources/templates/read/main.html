@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="common/header :: header">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8">
+<body>
+<div class="container">
+    <div th:replace="common/bodyHeader :: bodyHeader" />
+    <div class="jumbotron mt-5" style="background-color: #fdfdfe; border: 1px solid burlywood">
+        <h1>뉴스 톺아보기</h1>
+        <p class="lead">보고 싶은 뉴스를 선택하세요.</p>
+
+        <div>
+            <div class="card" style="width: 18rem; float: left">
+                <div class="card-body">
+                    <h5 class="card-title">PCR 검사 안 받았는데 확진이라고?</h5>
+                    <p class="card-text txt_post">2020년 3월 12일 세계보건기구(WHO)가 코로나19 팬데믹을 선언한 후, 벌써 2년이 지났는데요. 국내 확진자 수는 최근 가장 많이
+                        나오고 있어요. 오늘(14일)부터는 늘어나는 확진자 수에 맞춰 새로운 치료 체계가 시작될 거라고.</p>
+    <!--                <a href="#" class="btn btn-primary">Go somewhere</a>-->
+                </div>
+            </div>
+            <div class="card" style="width: 18rem; float: right">
+                <div class="card-body">
+                    <h5 class="card-title">PCR 검사 안 받았는데 확진이라고?</h5>
+                    <p class="card-text txt_post">2020년 3월 12일 세계보건기구(WHO)가 코로나19 팬데믹을 선언한 후, 벌써 2년이 지났는데요. 국내 확진자 수는 최근 가장 많이
+                        나오고 있어요. 오늘(14일)부터는 늘어나는 확진자 수에 맞춰 새로운 치료 체계가 시작될 거라고.</p>
+    <!--                <a href="#" class="btn btn-primary">Go somewhere</a>-->
+                </div>
+            </div>
+            <div class="card" style="width: 18rem; float:left;">
+                <div class="card-body">
+                    <h5 class="card-title">PCR 검사 안 받았는데 확진이라고?</h5>
+                    <p class="card-text txt_post">2020년 3월 12일 세계보건기구(WHO)가 코로나19 팬데믹을 선언한 후, 벌써 2년이 지났는데요. 국내 확진자 수는 최근 가장 많이
+                        나오고 있어요. 오늘(14일)부터는 늘어나는 확진자 수에 맞춰 새로운 치료 체계가 시작될 거라고.</p>
+    <!--                <a href="#" class="btn btn-primary">Go somewhere</a>-->
+                </div>
+            </div>
+            <div class="card" style="width: 18rem; float: right">
+                <div class="card-body">
+                    <h5 class="card-title">PCR 검사 안 받았는데 확진이라고?</h5>
+                    <p class="card-text txt_post">2020년 3월 12일 세계보건기구(WHO)가 코로나19 팬데믹을 선언한 후, 벌써 2년이 지났는데요. 국내 확진자 수는 최근 가장 많이
+                        나오고 있어요. 오늘(14일)부터는 늘어나는 확진자 수에 맞춰 새로운 치료 체계가 시작될 거라고.</p>
+    <!--                <a href="#" class="btn btn-primary">Go somewhere</a>-->
+                </div>
+            </div>
+            <div class="card" style="width: 18rem; float:left;">
+                <div class="card-body">
+                    <h5 class="card-title">PCR 검사 안 받았는데 확진이라고?</h5>
+                    <p class="card-text txt_post">2020년 3월 12일 세계보건기구(WHO)가 코로나19 팬데믹을 선언한 후, 벌써 2년이 지났는데요. 국내 확진자 수는 최근 가장 많이
+                        나오고 있어요. 오늘(14일)부터는 늘어나는 확진자 수에 맞춰 새로운 치료 체계가 시작될 거라고.</p>
+    <!--                <a href="#" class="btn btn-primary">Go somewhere</a>-->
+                </div>
+            </div>
+            <div class="card" style="width: 18rem; float:right;">
+                <div class="card-body">
+                    <h5 class="card-title">PCR 검사 안 받았는데 확진이라고?</h5>
+                    <p class="card-text txt_post">2020년 3월 12일 세계보건기구(WHO)가 코로나19 팬데믹을 선언한 후, 벌써 2년이 지났는데요. 국내 확진자 수는 최근 가장 많이
+                        나오고 있어요. 오늘(14일)부터는 늘어나는 확진자 수에 맞춰 새로운 치료 체계가 시작될 거라고.</p>
+    <!--                <a href="#" class="btn btn-primary">Go somewhere</a>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<style>
+    .txt_post {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 5; /* 라인수 */
+        -webkit-box-orient: vertical;
+        word-wrap:break-word;
+        line-height: 1.2em;
+        height: 3.6em; /* line-height 가 1.2em 이고 3라인을 자르기 때문에 height는 1.2em * 3 = 3.6em */
+    }
+
+    .card {
+        margin-top: 15px; !important;
+    }
+</style>
+</html>

@@ -1,4 +1,4 @@
-package com.gourmap.controller.review;
+package com.gourmap.controller.read;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @Slf4j
-public class ReviewController {
+public class ReadController {
 
-    @RequestMapping("/review")
+    @RequestMapping("/read")
     public String main() {
-        return "review/main";
+        return "read/main";
     }
 }
