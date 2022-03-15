@@ -7,21 +7,26 @@
 <div class="container">
     <div th:replace="common/bodyHeader :: bodyHeader" />
     <div class="jumbotron mt-5">
-        <h1>뉴스 등록하기</h1>
-        <div>
-            <form>
-                <div class="form-group">
-                    <label>뉴스 제목</label>
-                    <input type="title" class="form-control" placeholder="뉴스 제목을 입력해주세요."
-                            style="width: 200px;">
-                </div>
-                <div class="form-group">
-                    <label>내용</label>
-                    <textarea class="content" rows="7" style="width: 300px;"></textarea>
-                </div>
-            </form>
-        </div>
+        <h1 class="mb-5">뉴스 등록하기</h1>
+        <form>
+            <div class="form-group">
+                <input type="title" class="" placeholder="뉴스 제목을 입력해주세요." style="width: 100%; height: 50px;">
+            </div>
+            <div class="form-group">
+                <textarea class="content summernote" id="summernote" rows="7" style="width: 100%"></textarea>
+            </div>
+        </form>
     </div>
 </div>
 </body>
+<script>
+    $('.summernote').summernote({
+        height: 300,
+        minHeight: null,
+        maxHeight: null,
+        focus: true,
+        lang: "ko-KR",
+        placeholder: '내용을 입력해주세요.'
+    });
+</script>
 </html>
